@@ -1,7 +1,7 @@
 module.exports = {
   lintOnSave: false,
   publicPath: '/fc-items/',
-  outputDir: 'docs',
+  outputDir: '/docs',
 
   transpileDependencies: [
     'vuetify'
