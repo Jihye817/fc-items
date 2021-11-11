@@ -155,7 +155,7 @@
                                 <span class="text-h5">아이템 삭제</span>
                               </v-card-title>
                               <v-card-text>
-                                {{ item.name }}을 삭제하시겠습니까?
+                                {{ item.name }}을(를) 삭제하시겠습니까?
                               </v-card-text>
                               <v-card-actions>
                                 <v-spacer></v-spacer>
@@ -237,7 +237,7 @@
               </v-row>
               <v-row class="text-center ma-0 pa-3">
                 <v-col cols="12" class="ma-0 pa-0">
-                  <v-pagination v-model="currentPage" :length="pages">
+                  <v-pagination v-model="currentPage" :length="pages" :total-visible="7">
                   </v-pagination>
                 </v-col>
               </v-row>
