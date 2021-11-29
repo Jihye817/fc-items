@@ -7,21 +7,21 @@
     >
       <div class="d-flex align-center">
         <v-icon x-large>
-          mdi-bag-suitcase
+          mdi-dog
         </v-icon>
-        부대금고 탐색기
+        B's Hoard
       </div>
 
       <v-spacer></v-spacer>
 
-      <v-btn
+      <!-- <v-btn
         href="https://twitter.com/Benje_00"
         target="_blank"
         text
       >
         <span class="mr-2">Contact</span>
         <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-app-bar>
 
     <v-main>

@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <ride-page></ride-page>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import RidePage from "../components/RidePage.vue"
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      RidePage,
     },
   }
 </script>
